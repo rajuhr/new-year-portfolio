@@ -101,8 +101,263 @@
     margin-left: 135px;
     color: #FFF;
     padding: 15px;
+    font-size: 20px;
  }
  .Vectory-item2{
     padding-left: 220px;
     padding-top: 180px;
  }
+ /*---------- party section---------- */
+ .party-schedule{
+    background: linear-gradient(180deg, rgba(252, 248, 2, 0.1) 0%, rgba(108, 240, 7, 0) 100%);
+    width: auto;
+    height: 400px;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+ }
+ .party-schedule>p ,a{
+    text-align: center;
+    text-decoration: none;
+
+ }
+ .a-color{
+    color: chartreuse;
+ } 
+ .party-schedule>button{
+    margin-left: 45%;
+ }
+ /* =======offer offer offer========= */
+ .new-year-logo{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 25px;
+ }
+ .best-offer{
+    display: flex;
+    margin-left: 160px;
+ }
+ .new-year1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 130px;
+    
+    
+ }
+ .new-year2{
+    color:black;
+    font-size: 48px;
+    font-weight:900;
+    
+ }
+ .new-year3{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Ellipse-1{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    
+}
+.new-year4{
+    color: #F00;
+   font-family: Inter;
+   font-size: 48px;
+   font-weight: 700;
+   padding-left: 20px;
+
+}
+.new-year5{
+    color: rgba(7, 2, 17, 0.60);
+
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 400;
+   padding-left: 20px;
+   padding-top: 0px;
+}
+.image-1{
+    padding-left: 20px;
+}
+/* -----------------holiday Discount offer--------------- */
+.holiday-container{
+  text-align: center;
+  margin-top: 80px;
+    
+}
+.holiday-item{
+    color: #070211;
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 300;
+}
+.holiday-banner{
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday{
+    color: #F00;
+}
+.holiday-title{
+
+}
+.holiday-description{
+
+}
+.holiday-container{
+
+}
+/* .holiday-1{
+    margin-right: 150px;
+    margin-top: 100px;
+    width: 430px;
+    height: 430px;
+    float: right;
+    background-image:url('../resources/Rectangle\ 1.png');
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.holiday-2{
+    display: flex;
+    width: 100px;
+    position: absolute;
+    
+}
+.red-item{
+    float: inline-end;
+    width: 1330px;
+    margin-top: 0%;
+    height: 200px;
+    background-color: #F00;
+    text-align: center;
+    border-radius: 16px 0px 16px 16px;
+    margin-right: 150px;
+} */
+/* ----------------main part------------- */
+.container-main-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-main-image> img{
+    width:400px ;
+    height: 300px;
+    border: 2px solid #F00;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px orangered;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+
+}
+.container-content{
+    padding-left: 190px;
+}
+.container-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+  
+
+}
+.container-sub-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.container-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.container-main-image> img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+
+}
+
+/* ---------------subscribe-section---------- */
+.Subscribe-section{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f2aaaafa;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.Subscribe-items{
+    font-size: 48px;
+    font-weight: 900;
+}
+.Subscribe-description{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Inter;
+}
+.btn-email{
+    position: relative;
+    width: 400px;
+   
+}
+input{
+    border:1px solid black;
+    border-radius:15px  0px ;
+    padding: 15px;
+    background: #FFF;
+    color: color: rgba(7, 2, 17, 0.30);;
+
+}
+button{
+    background-color: #F00;
+    color: #FFF;
+    position: absolute;
+    border: none;
+    border-radius: 0  0 15px ;
+    padding: 15px;
+    
+}
+
+/* -----------------Footer-section----------------------- */
+.footer-container{
+    
+}
+.footer-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 100px;
+
+}
+hr{
+    width: 50%;
+    background-color: blue;
+}
+.footer-sub-title{
+
+}
+.footer-description{
+    text-align: center;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 100px;
+   
+}
+
+
+
+ 
+
+
