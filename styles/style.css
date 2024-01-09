@@ -1,9 +1,9 @@
-/* all website uses */
+/* ------------all website uses (universai)-----------------*/
 *{
     font-family: Merriweather;
     
 }
-/* banner related styles */
+/*-------------------<Banner section>---------- */
 .banner-title{
     border-radius: 16px;
     background: linear-gradient(180deg, #050505 0%, rgba(2, 0, 5, 0) 100%), url('../resources/Banner\ Image.png');
@@ -51,20 +51,19 @@
 }
 .banner-all-categories{
     color: #000;
-   text-align: center;
-   font-family: Inter;
-   font-size: 48px;
-  font-weight: 700;
-  padding:0px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding:0px;
   
 }
 .banner-images{
     margin: auto;
     text-align: center;
 }
-/********
- main part
- *******/
+/***************************<main part>************************/
+ 
  .Vectory-bg{
     display: flex;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
@@ -107,7 +106,9 @@
     padding-left: 220px;
     padding-top: 180px;
  }
- /*---------- party section---------- */
+ /*-------------------<party section>---------------- */
+
+
  .party-schedule{
     background: linear-gradient(180deg, rgba(252, 248, 2, 0.1) 0%, rgba(108, 240, 7, 0) 100%);
     width: auto;
@@ -129,7 +130,9 @@
  .party-schedule>button{
     margin-left: 45%;
  }
- /* =======offer offer offer========= */
+ /* ====================<offer offer offer>================ */
+
+
  .new-year-logo{
     display: flex;
     margin-left: 50px;
@@ -186,60 +189,102 @@
 .image-1{
     padding-left: 20px;
 }
+
 /* -----------------holiday Discount offer--------------- */
-.holiday-container{
-  text-align: center;
-  margin-top: 80px;
-    
+
+.holiday-main{
+    margin-top: 50px;
+    width: 1600px;
+    height: 900px;
+
 }
-.holiday-item{
+.what-is-function{
+    margin: auto;
+    text-align: center;
     color: #070211;
-   font-family: Inter;
-   font-size: 24px;
-   font-weight: 300;
+    font-family: inter;
+    font-size: 20px;
+    padding-bottom: 0%;
+    margin-bottom: auto;
+    font-weight: 500;
+
 }
-.holiday-banner{
-    font-size: 72px;
-    font-weight: 900;
-}
-.holiday{
+.holidays{
     color: #F00;
-}
-.holiday-title{
+    font-size: 50px;
+    font-weight: 800;
 
 }
-.holiday-description{
+.holidays-sale{
+    margin-top: 0%;
+    padding-top: 0%;
+    text-align: center;
+    color: #070211;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 
 }
-.holiday-container{
+.heading-pg{
+    margin-top: 5px;
+    padding-top: 5px;
+    width: 670px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: inter;
+    font-size: 15px;
+    margin: auto;
+    font-weight: 500;
 
 }
-/* .holiday-1{
-    margin-right: 150px;
+.third-main{
+    margin-right: 160px;
     margin-top: 100px;
     width: 430px;
     height: 430px;
     float: right;
-    background-image:url('../resources/Rectangle\ 1.png');
+    background-image: url('../resources/Rectangle\ 1.png');
     margin-bottom: 0%;
     padding-bottom: 0%;
 }
-.holiday-2{
+.g-44{
+    margin-top: 100px;
+    width: 200px;
+    width: 206.841px;
+    height: 206.841px;
+    float: left;
+}
+.holiday{
     display: flex;
     width: 100px;
     position: absolute;
-    
 }
 .red-item{
     float: inline-end;
-    width: 1330px;
+    width: 1320px;
     margin-top: 0%;
     height: 200px;
-    background-color: #F00;
+    background-color:#F00;
     text-align: center;
     border-radius: 16px 0px 16px 16px;
-    margin-right: 150px;
-} */
+    margin-right: 160px;
+}
+.holidays-buy{
+    width: 1320px;
+    border-radius: 16px 0px 16px 16px;
+
+}
+.img-75{
+    margin-top: 50px;
+    fill: radial-gradient(49.96% 50% at 50% 50.23%, #000 0%, #FFF 100%);
+
+}
+.g-44 .img-44{
+    width: 300px;
+    margin-top: 90px;
+    margin-left: 70px;
+}
+
 /* ----------------main part------------- */
 .container-main-image{
     display: flex;
@@ -294,6 +339,7 @@
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 15px;
+    margin-bottom: 50px;
 }
 .Subscribe-items{
     font-size: 48px;
@@ -304,14 +350,16 @@
     font-weight: 400;
     font-family: Inter;
 }
+
 .btn-email{
     position: relative;
     width: 400px;
+    padding: 100px;
    
 }
 input{
     border:1px solid black;
-    border-radius:15px  0px ;
+    border-radius:100px 0px 0px ;
     padding: 15px;
     background: #FFF;
     color: color: rgba(7, 2, 17, 0.30);;
@@ -322,29 +370,52 @@ button{
     color: #FFF;
     position: absolute;
     border: none;
-    border-radius: 0  0 15px ;
+    border-radius: 0px 0px 100px ;
     padding: 15px;
     
 }
 
 /* -----------------Footer-section----------------------- */
 .footer-container{
+    margin-top: 20px;
+    color: #FFF;
+    background-color: #070211;
     
 }
 .footer-title{
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    padding-left: 100px;
+    
+
+}
+.footer-1{
+    padding-left: 80px;
+    
+}
+.footer-2{
+    padding-right: 100px;
+   
+
+}  
+.footer-2>img{
+    margin-top: 3px;
+    gap: 2px;
+}
+.footer-2> span{
+    margin-bottom: 5px;
+}
+
+
+.world{
+    padding-top: 10px;
 
 }
 hr{
     width: 50%;
     background-color: blue;
 }
-.footer-sub-title{
 
-}
 .footer-description{
     text-align: center;
 }
@@ -352,9 +423,18 @@ hr{
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    padding-left: 100px;
+    
    
 }
+.footer-3{
+    padding-left: 80px;
+}
+.footer-4{
+
+    padding-right: 80px;
+
+}
+/* ===============<alhumdulliah projects complete>=========== */
 
 
 
